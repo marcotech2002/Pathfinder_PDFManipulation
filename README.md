@@ -1,5 +1,11 @@
 # Gerador de PDF para Orçamento
 Este programa em Python gera um arquivo PDF contendo um orçamento baseado em informações fornecidas pelo usuário. Ele utiliza a biblioteca fpdf para criar e formatar o documento.
+## Ferramentas
+
+![Logo do Python](https://static.wixstatic.com/media/4bef97_3fca4225935f490783ac9ecb3f27a8b1~mv2.png/v1/fill/w_256,h_256,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/python_logo.png)
+
+- Linguagem de programação: Python
+
 ## Funcionalidades
 - Solicita ao usuário detalhes do projeto:
   - Descrição do projeto
@@ -11,11 +17,18 @@ Este programa em Python gera um arquivo PDF contendo um orçamento baseado em in
 ## Bibliotecas Utilizadas
 - fpdf: Utilizada para a criação e manipulação de arquivos PDF.
 ## Como Executar
-1. Certifique-se de ter a biblioteca fpdf instalada:
+1. Clone o repositório:
+   
+    ```
+    git clone <repo-url>
+    cd nome-do-projeto
+    ```
+
+3. Certifique-se de ter a biblioteca fpdf instalada:
    
     `pip install fpdf`
    
-3. Execute o programa:
+4. Execute o programa:
    
     `python nome_do_arquivo.py`
    
