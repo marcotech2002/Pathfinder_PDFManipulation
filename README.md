@@ -12,11 +12,15 @@ Este programa em Python gera um arquivo PDF contendo um orçamento baseado em in
 - fpdf: Utilizada para a criação e manipulação de arquivos PDF.
 ## Como Executar
 1. Certifique-se de ter a biblioteca fpdf instalada:
+   
     `pip install fpdf`
-2. Execute o programa:
+   
+3. Execute o programa:
+   
     `python nome_do_arquivo.py`
-3. Insira as informações solicitadas quando o programa pedir.
-4. O PDF será gerado no diretório do programa.
+   
+5. Insira as informações solicitadas quando o programa pedir.
+6. O PDF será gerado no diretório do programa.
 ## Exemplo
 ```
 Informe a descrição do projeto: Site institucional
